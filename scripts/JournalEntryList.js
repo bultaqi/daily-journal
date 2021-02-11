@@ -1,11 +1,11 @@
-import { useJournalEntries } from "./JournalDataProvider.js"
+import { copyOfEntries } from "./JournalDataProvider.js"
 import { JournalEntryComponent } from "./JournalEntry.js"
 
 const entryLog = document.querySelector("#entryLog")
 
 export const EntryListComponent = () => {
     
-    const entries = useJournalEntries()
+    const entries = copyOfEntries()
 
     for (const entry of entries) {
       entryLog.innerHTML += JournalEntryComponent(entry)
