@@ -1,6 +1,6 @@
 let entries = []
 
-export const copyOfEntries = () => entries.slice()
+export const useEntries = () => entries.slice()
 
 export const getEntries = () => {
     return fetch("http://localhost:8088/entries") // Fetch from the API
@@ -19,4 +19,10 @@ export const saveEntry = entry => {
         body: JSON.stringify(entry)
     })
     .then(getEntries) // After we add an entry, get them all again so our new entry appears in our collection
+}
+
+export const deleteMessage = entry => {
+    return fetch(`http://localhost:8088/entries/${entry}`, {
+        method: "DELETE"
+    })
 }

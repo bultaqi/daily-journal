@@ -12,8 +12,8 @@ export const JournalFormComponent = () => {
                 <input type="date" name="journalDate" id="journalDate">
             </fieldset>
             <fieldset>
-                <label for="conceptsCovered">Concepts Covered:</label>
-                <input type="text" name="conceptsCovered" id="conceptsCovered">
+                <label for="titleOfEntry">Title of Entry:</label>
+                <input type="text" name="titleOfEntry" id="titleOfEntry">
             </fieldset>
             <fieldset>
                 <label for="journalEntry">Journal Entry:</label>

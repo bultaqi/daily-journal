@@ -1,32 +1,25 @@
 {
   "entries": [
     {
-      "id": 1,
-      "date": "01/24/2021",
-      "concept": "HTML & CSS",
-      "entry": "We talked about HTML components and how to make grid layouts with Flexbox in CSS.",
-      "mood": "Ok"
-    },
-    {
       "id": 2,
       "date": "01/25/2021",
       "concept": "HTML & CSS",
       "entry": "We leant HTML.",
-      "mood": "Ok"
+      "mood": "Happy"
     },
     {
       "id": 3,
       "date": "01/26/2021",
       "concept": "HTML & CSS",
       "entry": "Watching Tommy code html representation in the index and then take that markup and paste it into a js file for an easy way to break up the structuring. Jordan also took her time to communicate the .then method after a fetch call.",
-      "mood": "Ok"
+      "mood": "Happy"
     },
     {
       "id": 4,
       "date": "01/27/2021",
       "concept": "HTML & CSS",
       "entry": "Jordan executes fairness with class. Asking class for a show of hands if they had a problem with an event listener instead of taking up time when asked by a single student. New words: Separation of concerns, anonymous function, function definition.",
-      "mood": "Ok"
+      "mood": "Happy"
     },
     {
       "date": "02/11/2021",
@@ -34,6 +27,13 @@
       "entry": "HOLY SHIT!\n\nBuilt a form component function to hold my html and built a save component to save my entries into the local API!",
       "mood": "Happy",
       "id": 5
+    },
+    {
+      "date": "",
+      "concept": "Lordy Day",
+      "entry": "Man what a great day",
+      "mood": "Happy",
+      "id": 6
     }
   ]
 }

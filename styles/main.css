@@ -15,8 +15,12 @@ body {
 }
 
 
+#recordEntry {
+	color: blue;
+}
+
 button {
-	color: red;
+	color:red;
 }
 
 input,
